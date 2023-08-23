@@ -86,7 +86,7 @@ function createAlbum() {
             </div>
 
             <div>
-              <label>Slug</label>
+              <label>Slug 🐌</label>
               <input
                 type="text"
                 value={slug}
@@ -114,7 +114,7 @@ function createAlbum() {
             </div>
 
             <div>
-              <label>Categories (comma-seperated)</label>
+              <label>Genre/Genres (use "/" for multiple genres)</label>
               <input
                 type="text"
                 value={categories}

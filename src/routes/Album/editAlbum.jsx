@@ -150,7 +150,7 @@ function editAlbum() {
             </div>
 
             <div>
-              <label>Slug</label>
+              <label>Slug 🐌</label>
               <input
                 type="text"
                 value={slug}
@@ -178,8 +178,8 @@ function editAlbum() {
             </div>
 
             <div>
-              <label>Categories (comma-seperated)</label>
-              <input
+              <label>Genre/Genres (use "/" for multiple genres)</label>
+              <text
                 type="text"
                 value={categories}
                 onChange={handleCategoryChange}
