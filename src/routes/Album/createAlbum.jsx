@@ -60,8 +60,7 @@ function createAlbum() {
     <div>
       <h1>Create Album</h1>
       <p>
-        This is where we use NodeJs, Express & MongoDB to grab some data. The
-        data below is pulled from a MongoDB database.
+        Let me know if you heard something recently that you just can't stop listening to! Remember to add the artist's name in the title field and the album name in the slug field. Thank you!! 🙏
       </p>
 
       {submitted ? (
