@@ -38,7 +38,7 @@ function singleAlbum() {
   return (
     <div>
      
-    <Link to={"/albums"}>🔙 Albums</Link>
+    <Link to={"/albums"}>⏮ Albums</Link>
 
     <div className="albumdetails">
       <div className="col-1">
