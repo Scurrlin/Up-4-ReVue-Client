@@ -178,7 +178,7 @@ function editAlbum() {
 
             <div>
               <label>Genre/Genres (use "/" for multiple genres)</label>
-              <text
+              <input
                 type="text"
                 value={categories}
                 onChange={handleCategoryChange}
