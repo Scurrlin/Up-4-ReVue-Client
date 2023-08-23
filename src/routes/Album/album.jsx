@@ -45,34 +45,7 @@ function Album() {
       </p>
 
       <Link to="/createalbum">+ Add New Album</Link>
-
-      <h2>Fetch Example</h2>
-      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
-
-
-      <div className="filters">
-        <label>Categories</label>
-        <select onChange={(e)=> setSelectedCategory(e.target.value)}>
-          <option value="">All</option>
-          <option value="alt pop">Alt Pop</option>
-          <option value="pop">Pop</option>
-          <option value="country">Country</option>
-          <option value="classical">Classical</option>
-          <option value="edm">EDM</option>
-          <option value="folk">Folk</option>
-          <option value="jazz">Jazz</option>
-          <option value="r&b">R&B</option>
-          <option value="rap">Rap</option>
-          <option value="polyphia">Polyphia</option>
-          <option value="rock">Rock</option>
-          <option value="metal">Metal</option>
-          <option value="k pop">K Pop</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-
-
-
+      
       {isLoading ? (
         <p>Loading...</p>
       ) : error ? (
