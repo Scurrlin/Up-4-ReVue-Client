@@ -52,7 +52,7 @@ function singleAlbum() {
         <p>{data?.description}</p>
         <StarRating numberOfStars={data?.stars} />
 
-        <p>Category</p>
+        <p>Genre(s)</p>
         <ul>
           {data?.category?.map((item, index)=> (
             <li key={index}>{item}</li>
