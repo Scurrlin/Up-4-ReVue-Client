@@ -110,7 +110,7 @@ function editAlbum() {
     <div>
       <h1>Edit Album</h1>
       <p>
-        Sometimes a second listen is all you need to completely change your mind about an album! If you want to update your review, click submit to commit your changes. If you decided you don't want to update your review anymore or came here by mistake, click the Albums link to return to the main page!
+        Sometimes a second listen is all you need to completely change your mind about an album!
       </p>
 
       <button onClick={removeAlbum} className="delete">

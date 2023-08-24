@@ -41,7 +41,7 @@ function Album() {
     <div>
       <h1>Albums</h1>
       <p>
-        Below are reviews of some of my favorite albums. If you want to add your album review of an album, all you need is a picture and an opinion!
+        Below are reviews of some of my favorite albums. You should check them out!
       </p>
 
       <Link to="/createalbum">+ Add New Album</Link>

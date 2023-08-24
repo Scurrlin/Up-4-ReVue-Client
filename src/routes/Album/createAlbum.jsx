@@ -60,7 +60,7 @@ function createAlbum() {
     <div>
       <h1>Create Album</h1>
       <p>
-        Let me know if you heard something recently that you just can't stop listening to! Remember to add the artist's name in the title field and the album name in the slug field. Thank you!! 🙏
+        In the future I plan to open up review submissions to the public, but for now only I have permission to add new reviews. You absolutely have permission to enjoy the cute doggo picture though!
       </p>
 
       {submitted ? (
